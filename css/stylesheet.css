@@ -1,0 +1,196 @@
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #187bbd;
+  box-shadow: 0 0 10px #187bbd;
+}
+
+#rts:focus{
+  outline: none;
+  border-color: #187bbd;
+  box-shadow: 0 0 10px #187bbd;
+}
+
+#reg{
+  border-radius: 3%;
+  width: 70%;
+  background: rgba(233, 245, 255, 0.31);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+}
+
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    color: white;  
+}
+
+#headerSection {
+  font-family:Baskerville,Times,'Times New Roman',serif;
+
+ color:white;
+ font-variant:small-caps;
+ 
+ font-weight:bold;
+ padding:10px;
+ animation: glow 1s ease-in-out infinite alternate;
+}
+
+#loginSection {
+  padding: 5px;
+  border-radius: 16px;
+  width: 25%;
+  background: rgba(233, 245, 255, 0.31);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+}
+
+body{
+  text-align: center;
+ /*background-color:#C1DEAE;*/
+ background-image: url("IM2.jpg");
+ background-size: cover;
+}
+
+.loginbtn {
+  background-color: #1c87c9;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 17px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #450164;
+    box-shadow: 0 0 5px #450164;
+  }
+  50% {
+    background-color: #450164;
+    box-shadow: 0 0 20px #450164;
+  }
+  100% {
+    background-color: #6b009c;
+    box-shadow: 0 0 5px #6b009c;
+  }
+}
+
+.loginbtn {
+  animation: glowing 1300ms infinite;
+}
+
+
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+ 
+}
+
+#profileSection {
+  color: white;
+  width: 30%;
+  float: left;
+  border-radius: 16px;
+  background: rgba(233, 245, 255, 0.31);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  padding: 20px;
+  
+}
+
+hr{ 
+   
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(102, 101, 101, 0), rgb(255, 255, 255), rgba(102, 101, 101, 0));
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  border-radius: 16px;
+  background: rgba(233, 245, 255, 0.31);
+backdrop-filter: blur(3.4px);
+-webkit-backdrop-filter: blur(3.4px);
+  padding: 20px;
+}
+
+h2{
+  color: white;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color:#3E215D;
+  color: white;
+  border-radius: 5px;
+  animation: glowing 1300ms infinite;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color:#3E215D;
+  color: white;
+  border-radius: 5px;
+  animation: glowing 1300ms infinite;
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #180085, 0 0 40px #180085, 0 0 50px #180085, 0 0 60px #180085, 0 0 70px #180085;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #180085, 0 0 40px #180085, 0 0 50px #180085, 0 0 60px #180085, 0 0 70px #180085, 0 0 80px #180085;
+  }
+}
+
+/* From https://css.glass */
